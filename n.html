@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <style>
+            .container
+            {
+                width:100%;
+                margin:auto;
+                margin-top:20px;
+                position: relative;
+                padding-bottom: 20px;
+                
+            }
+    .slide_img
+    {
+        position: absolute;
+        width:100%;
+        height: 220px;
+    }
+    .slide_img img{
+        width:30%;
+        float: left;
+    }
+    #i1,#i2,#i3
+    {
+        display: none;
+    }
+    .pre,.nxt
+    {
+        width:12%;
+        height: 100%;
+        position: relative;
+        z-index: 99;
+        cursor: pointer;background-color: red;
+    }
+    .pre{
+        left:0;
+    }
+    .nxt{
+        right:0;
+    }
+    .slide_img
+    {
+
+        z-index:-1;
+    }
+    #i1:checked ~#one,
+    #i2:checked ~#two,
+    #i3:checked ~#thr
+    {
+        z-index: 9;
+    }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <input type="radio" name="img" id="i1" checked>
+            <input type="radio" name="img" id="i2">
+            <input type="radio" name="img" id="i3">
+            <div class="slide_img" id="one">
+                <img src="./MovieImages/Barishon Mein.jpg">
+                <label for="i3" class="pre"></label>
+                <label for="i2" class="nxt"></label>
+            </div>
+            <div class="slide_img" id="two">
+                <img src="./MovieImages/Deva Deva.jpg">
+                <label for="i1" class="pre"></label>
+                <label for="i3" class="nxt"></label>
+            </div>
+            <div class="slide_img" id="thr">
+                <img src="./MovieImages/Coka 2.0.webp">
+                <label for="i2" class="pre"></label>
+                <label for="i3" class="nxt"></label>
+            </div>
+        </div>
+    </body>
+</html>

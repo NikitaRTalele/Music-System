@@ -1,0 +1,50 @@
+
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Other styles ... */
+        .navbar {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: teal;
+            color: #fff;
+            z-index: 22;
+        }
+
+        .hamburger {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .menu {
+            display: none;
+            flex-direction: column;
+            background-color: teal;
+            text-align: center;
+            padding: 16px;
+            position: absolute;
+            top: 70px;
+            right: 0;
+            z-index: 1;
+        }
+
+        .menu li {
+            margin-bottom: 10px;
+        }
+
+        input[type=checkbox]:checked + .menu {
+            display: flex;
+        }
+
+        @media (max-width: 700px) {
+            /* Other mobile styles ... */
+        }

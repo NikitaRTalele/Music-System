@@ -1,0 +1,614 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+}
+   a {
+    text-decoration: none;
+    font-size: 30px;
+   }
+   li {
+    list-style: none;
+   }
+
+.body
+{
+    background-color: white;
+}
+   /* NAVBAR STYLING STARTS */
+.navbar {
+    position: fixed;
+    top:0px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    /* background-color: #4C0033; */
+    color: #fff;
+    z-index: 22;
+    /* top:0px; */
+    
+   }
+   .nav-links a {
+    color: #fff;
+   }
+   /* LOGO */
+   .img {
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    animation:  ani1 5s linear infinite;
+   }
+   @keyframes ani1
+   {
+        to{
+            transform: rotate(360deg);
+        }
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #4c9e9e;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+   /* CHECKBOX HACK */
+input[type=checkbox]{
+    display: none;
+   } 
+   /*HAMBURGER MENU*/
+   .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+   }
+   /* APPLYING MEDIA QUERIES */
+
+
+
+.section1
+{
+    width:100%;
+    display: flex;
+    position: relative;
+    top:105px;
+    z-index: 2;
+ 
+}
+.article1 
+{
+    width:50%;
+}
+.aside1
+{
+    width:50%;
+    background-color: antiquewhite;
+    background-image: url(./MovieImages/BackgroundImage.jpeg);
+    background-attachment:scroll;
+}
+.aside1 img 
+{
+    width:50%;
+    height:40PX;
+}
+.title 
+{
+    width:100%;
+    text-align: center;
+    font-size: 30px;
+}
+.li1 
+{
+    display: flex;
+    border:3px solid darkblue;
+    margin-bottom:20px;
+    margin-left:20px;
+    width:80%;
+}
+.l1 
+{
+    padding:20px;
+}
+.l2 
+{
+    height:80px;
+}
+.l2 img 
+{
+ height:80px;
+ width:80px;
+ padding:5px;
+}
+.l3 
+{
+    width:60%;
+    padding-top:20px;
+    padding-left:20px;
+}
+.l4 
+{
+ font-size: 30px;
+ text-align: center;
+ padding:10px;
+}
+.aside1 img 
+{
+    height:500px;
+    width:100%;
+}
+.mode
+{
+    margin-top: 7px;
+}
+
+
+
+
+
+/* .fst 
+{
+   
+} */
+.ul2
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height:auto;
+    animation:new 0s infinite;
+    left:0;
+}
+.ul3
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height:auto;
+    animation:new 0s infinite;
+    left:0
+}
+.ul4
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height:auto;
+    animation:new 0s infinite;
+    left:0
+}
+.ul5
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height:auto;
+    animation:new 0s infinite;
+    left:0
+}
+.article2 
+{
+    position: relative;
+    animation:new 0s infinite;
+    overflow: hidden;
+    /* display: inline-block; */
+}
+.photo img 
+{
+    height:200px;
+    width:200px;
+    margin:30px 20px 0px 31.5px;
+}
+.photo a 
+{
+    height:200px;
+    width:200px;
+}
+.photo p
+{
+    text-align: center;
+    font-size:30px;
+    font-weight: 200;
+}
+.section2 
+{
+    width:100%;
+    position: relative;
+    z-index: 3;
+    top:50px;
+}
+.section3 
+{
+    width:100%;
+    position: relative;
+    z-index: 4;
+}
+
+.title2{
+    width: 100%;
+    display: flex;
+}
+.title2 h1
+{
+    margin-left:20px;
+    font-size: 36px;
+    width: 2000px;
+}
+.seeMore
+{
+    width:200px;
+    height: auto;
+    margin-top:20px;
+}
+.seeMore a
+{
+    font-size: 15px;
+}
+.li2{
+    position: relative;
+    width:100%;
+    display: block;
+}
+.li3{
+    position: relative;
+    width:100%;
+    display: block;
+}
+#btn2
+{
+ position: absolute;  
+ top:150px;
+}
+#btn 
+{
+    position: absolute;
+    top:150px;
+    right:0px;
+}
+
+#bttn2,#btn6,#btn8
+{
+ position: absolute;  
+ top:150px;
+}
+#bttn,#btn5,#btn7
+{
+    position: absolute;
+    top:150px;
+    right:0px;
+}
+.footer 
+{
+    height:auto;
+    width:100%;
+}
+.footer h1{
+    text-align: center;
+    font-size: 40px;
+}
+.footer h4 
+{
+    text-align: center;
+}
+hr 
+{
+    width: 80%;
+    margin-left:10%;
+}
+
+/* .bttn2
+{
+ position: absolute;  
+ top:150px;
+}
+.bttn 
+{
+    position: absolute;
+    top:150px;
+    right:0px;
+} */
+
+
+/* For Login Form */
+#formm
+{
+    height:auto;
+    border-radius: 10px;
+    position: fixed;
+    top:50px;
+    right:200px;
+}
+table{
+    padding:20px 100px 20px 100px;
+}
+td,tr
+{
+    height:25px;
+}
+input
+{
+    height:25px;
+    border:none;
+    border-bottom: 1px solid rgb(54, 51, 51);
+    color:white;
+  
+}
+.caption
+{
+    text-align: center;
+}
+
+
+/* Dark Mode*/
+.theme-light {
+    --color-primary: #0060df;
+    --color-secondary: #fbfbfe;
+    --color-accent: #fd6f53;
+    --font-color: #000000;
+    
+  }
+  .theme-dark {
+    --color-primary: #17ed90;
+    --color-secondary: #2a2c2d;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+  }
+  .container, .body{
+    /* display: flex; */
+    /* width: 100%; */
+    /* height: 100%; */
+    background: var(--color-secondary);
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+/* For mobile View  */
+   @media (max-width: 700px) {
+   .menu { 
+    display:none;
+    position: absolute;
+    background-color:teal;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+   }
+   .menu li:hover {
+    display: inline-block;
+    /* background-color:#4c9e9e; */
+    transition: 0.3s ease;
+   }
+   .menu li + li {
+    margin-top: 12px;
+   }
+   input[type=checkbox]:checked ~ .menu{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+   }
+   .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+   }
+   .dropdown li:hover {
+    background-color: #4c9e9e;
+   }
+
+
+   .section1 
+   {
+    width: 100%;
+    display: block;
+   }
+   .li1 
+{
+    display: flex;
+    border:1px solid darkblue;
+    margin-bottom: 20px;
+    margin-left:0px;
+    width:100%;
+}
+   .sub 
+   {
+    display: flex;
+   }
+   .l3 
+    {
+    width:250px;
+    padding:20px;
+    border:1px;
+    }
+    .l3 .info 
+    {
+    width:40%;
+    }
+   .article1
+   {
+    width:100%;
+   }
+   .aside1 
+   {
+    width:100%;
+   }
+   .sub 
+   {
+    display: block;
+   }
+   .l2 img 
+   {
+    height:70px;
+    width:70px;
+   }
+   .photo img 
+   {
+    height:145px;
+    width:145px;
+    margin:10px 10px 0px 13px;
+   }
+   .photo p
+   {
+    text-align: center;
+    font-weight: 200;
+    font-size:20px;
+   }
+   .section2 
+   {
+    width:100%;
+   }
+   .ul2 
+   {
+    display: inline-block;
+   }
+   .li2 
+   {
+    float: left;
+   }
+   .title2{
+    font-size: 20px;
+    margin:0px;
+
+   }
+   .article2
+   {
+    width:100%;
+   }
+   .article2 .ul3
+   {
+    display:block;
+    overflow: hidden;
+   }
+   .li3 
+   {
+    height:200px;
+    width:500px;
+    float:left;
+   }
+   .li3 .photo
+   {
+    display: block;
+    height:200px;
+    width: 500px;
+   }
+   .title2 h1 
+   {
+    text-align: center;
+   }
+   .seeMore a
+    {
+     font-size: 15px;
+     display: none;
+    }
+    .button 
+    {
+        display: none;
+    }
+    .li2, .li3 
+    {
+        float: left;
+        height:150px;
+        width:150px;
+        margin-bottom: 40px;
+    }
+    .photo 
+    {
+        display: block;
+        height:150px;
+        width:150px;
+    }
+    .ul3 
+    {
+        display: inline-block;
+        width:100%;
+    }
+    .ul4 
+    {
+        display: inline-block;
+    }
+    .ul5 
+    {
+        display: inline-block;
+    }
+    .li3 .photo 
+    {
+     display: block;
+     height:150px;
+     width:150px;
+    }
+    .footer h1 
+    {
+        text-align: left;
+        font-size: 23.7px;
+        padding-bottom: 20px;
+        padding-left:10px;
+    }
+    .footer h4 
+    {
+        font-weight: 200;
+    }
+    .img2{
+        display: none;
+    }
+    #formm
+    {
+        position: fixed;
+        width:80%;
+        right:20px;
+        text-align: center;
+    }
+
+
+
+   }

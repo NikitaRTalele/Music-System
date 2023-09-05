@@ -1,0 +1,31 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+article
+{
+    width: 50%;
+    float: left;
+  
+}
+aside
+{
+    width:50%;
+    float: left;
+    display: flex;
+}
+.songs
+{
+    width:50%;
+    height:30px;
+    background-color: rebeccapurple;
+    float: left;
+}
+.s 
+{
+    height:50px;
+    width:50%;
+    background-color: aquamarine;
+    float: left;
+}

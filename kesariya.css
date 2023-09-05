@@ -1,0 +1,172 @@
+/* *
+{
+    padding: 0px;
+    margin:0px;
+}
+
+section 
+{
+    width:100%;
+}
+.article1
+{
+    display: block;
+    width: 30%;
+    height:350px;
+    float: left;
+}
+.aside 
+{
+    display: block;
+    float: left;
+    width:70%;
+}
+li 
+{
+    float: left;
+    width:80px;
+    margin-left: 10px;
+}
+.aside1 h1
+{
+    margin-top:20px;
+    background-color: aquamarine;
+    font-size: 40px;
+    padding-top: 20px;
+    float: left;
+    width:70%;
+   
+}
+.aside1 p
+{
+    float: left;
+    height: 350px;
+    width:70%;
+}
+
+.img1
+{
+    height:350px;
+    margin:20px;
+    background-color: aqua;
+    width:350px;
+    border:0px solid; 
+    border-radius:20px;
+} */
+
+*
+{
+    padding:0px;
+    margin:0px;
+}
+.article1 
+{
+    width:50%;
+    height:500px;
+    float: left;
+}
+.aside1
+{
+    width:50%;
+    float: left;
+}
+.article1 .img1 
+{
+    margin:1px 4px 20px 150px;
+    border:0px solid;
+    border-radius: 20px;
+}
+.aside1 h1,p
+{
+    font-size: 40px;
+}
+.article1 .ply
+{   
+    position: absolute;
+    top:260px;
+    left:330px;
+    border:1px solid black;
+    border-radius: 50%;
+}
+.ply:hover 
+{
+    background-color:black;
+    color:red;
+}input[type="range"]
+{
+    color:red;
+    background: violet;
+}
+audio[controls]
+{
+    width: 500px;
+    color:red;
+    border:0px;
+    border-radius: none;
+    float: left;
+}
+.new
+{
+    width:300px;
+    height:500px;
+    background-color: #56AEFF; 
+    float: left;
+}
+audio[controls]
+{
+    /* height:90px;
+    width: 460px; */
+    width:300px;
+}
+audio::-webkit-media-controls-panel {
+    background-color:white;
+}
+audio::-webkit-media-controls-timeline
+{
+    background-color: #B1D4E0;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:red;  
+    left:200px;
+}
+.one1
+{
+    height:55px;
+    width:346px;
+    border:2px solid  blue;
+    margin-left:175px;
+}
+/* .aud
+{
+    display: block;
+} */
+iframe
+{
+    height:500px;
+    width:98%;
+    border:none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+.i2
+{
+    width: 200px;
+    float: left;
+    position: absolute;
+    left:200px;
+}
+.i1
+{
+    position: absolute;
+    left:180px;
+}
+.i3
+{
+    position: absolute;
+    left:230px;
+}

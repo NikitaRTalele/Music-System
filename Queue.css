@@ -1,0 +1,42 @@
+*
+{
+    padding:0px;
+    margin:0px;
+    background-color: aqua;
+}
+li 
+{
+    list-style: none;
+    border-bottom: 2px solid red;
+}
+.queueImg
+{
+    height:60px;
+    width:60px;
+    margin:4px;
+    border:0px solid;
+    border-radius: 5px;
+}
+.name 
+{
+    display: inline;
+    font-size:larger;
+    font-weight: 550;
+    position: relative;
+    top:-50px;
+    margin-left:15px;
+}
+.title
+{
+    position: sticky;
+}
+.li1
+{
+    margin:10px;
+}
+.link
+{
+    text-decoration:none;
+    cursor: pointer;
+    color: black;
+}

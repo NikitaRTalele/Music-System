@@ -1,0 +1,302 @@
+<html>
+    <head>
+        <title>Best Of Neha kakkar</title>
+        <link rel="icon" href="./MovieImages//favicon.ico" type="image/x-icon" /> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./Akdi Pakdi.css">
+        <script src="./jquery.js"></script>
+        <!-- <script src="./DarkMode.js"></script> -->
+        <script src="./n.js"></script>
+    </head>
+    <body id="b">
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">
+               <img  class="img" src="./MovieImages/Logo.jpg"/>
+            </div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+              <!-- USING CHECKBOX HACK -->
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+              <!-- NAVIGATION MENUS -->
+              <div class="menu">
+                <li><a href="./MusicLife.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <!-- <li class="services">
+                  <a href="#">Services</a> -->
+                  <!-- DROPDOWN MENU -->
+                  <!-- <ul class="dropdown">
+                    <li><a href="/">Dropdown 1 </a></li>
+                    <li><a href="/">Dropdown 2</a></li>
+                  </ul> -->
+                <!-- </li> -->
+                <!-- <li><a href="/">Contact</a></li> -->
+                <li id="for"><a href="#formm" target="_top">Sign In</a></li>
+                <li>
+                  <i class="fa fa-moon-o" id="Dark"></i>
+                  <i class="fa fa-sun-o" id="Bright"></i>
+              </li>
+              </div>
+            </ul>
+          </nav>
+        <br>
+        <br>
+        <br>
+        <section>
+            <article>
+                <div class="details">
+                    <div class="art"></div>
+                    <div class="name">Track Name</div>
+                    <div class="track-artist">Track Artist</div>
+                
+                  </div>
+
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                <img src="./MovieImages/Barishon Mein.jpg">
+                <div class="div">
+                <i class="fa fa-step-backward fa-3x" id="previous"></i>
+                <i class="fa fa-play-circle fa-3x" id="master" type="button"></i>
+                <i class="fa fa-step-forward fa-3x" id="next"></i>
+                <i class="fa fa-heart-o fa-3x" id="like" style="color:red;" ></i>
+                </div>
+            </article>
+            <aside>
+                <iframe src="./Arijit SinghQ.html" style="height:400px"></iframe>
+            </aside>
+        </section>
+
+        <script src="./Arijit Singh.js"></script>
+
+
+        <script>
+          function fun()
+          {
+              let name=f1.uname.value;
+              let passw=f1.pass.value;
+              let mail=f1.gmail.value;
+              let pno=f1.phone.value;
+      
+              // for UserName
+              
+              if(name=="")
+              {
+                  alert("Please Enter Your Name");
+                  return false;
+              }
+              if(name.length<5 || name.length>10)
+              {
+                alert("please Enter right ")   
+                return false;
+              }
+              flag=0;
+              for(i=0;i<name.length;i++)
+              {
+                  if(name.charCodeAt(i)>=65 && name.charCodeAt(i)<=90)
+                  {
+                      flag=1;
+                  }
+                  if(!isNaN(name))
+                  {
+                      alert("Please Enter Only Alphabets Not Number")
+                      return false;
+                  }
+              }
+              if(flag==0)
+              {
+                  alert("Enter at least One capital letter");
+                  return false;
+              }
+              // for password
+              if(passw=="")
+              {
+                  alert("Please Enter PassWord");
+                  return false;
+              }
+              flag=0;
+              for(i=0;i<passw.length;i++)
+              {
+                  if(passw.charCodeAt(i)==64 || passw.charCodeAt(i)==35 || passw.charCodeAt(i)==36)
+                  {
+                      flag=1;
+                  }
+                  
+              }
+              if(flag==0)
+              {
+                  alert("Please Enter one Secial Character ");
+                  return false;
+              }
+      
+              t=0;
+              for(i=0;i<passw.length;i++)
+              {
+                  if(passw.charCodeAt(i)>=65 && passw.charCodeAt(i)<=90)
+                  {
+                      t=1;
+                  }
+              }
+              if(t==0)
+              {
+                  alert("Please Enter At least one capital letter");
+                  return false;
+              }
+      
+      
+              // for gmail
+              if(mail=="")
+              {
+                  alert(" Please Enter Gmail");
+                  return false;
+              }
+              flag=0;
+              for(i=0;i<mail.length;i++)
+              {
+                  if(mail.charCodeAt(i)==64 && mail.charCodeAt((mail.length)-4)==46)
+                  {
+                      flag=1;
+                  }
+              }
+              if(flag==0)
+              {
+                  alert("please Enter One Special Character and enter dot ")
+                  return false;
+              }
+              
+              //for phone number
+              if(pno=="")
+              {
+                  alert("Please Enter Your Phone Number: ")
+                  return false;
+              }
+              flag=0;
+              if(pno.length==10)
+              {
+                  flag=1;
+              }
+              if(flag==0)
+              {
+                  alert("please enter 10 digits ")
+                  return false;
+              }
+              if(pno.charCodeAt(0)!=57 && pno.charCodeAt(0)!=56 && pno.charCodeAt(0)!=55)
+              {
+                  alert("Please Enter right phone number: ")
+                  return false;
+              }
+      
+      
+              // for gender
+              if(f1.gender[0].checked==false && f1.gender[1].checked==false && f1.gender[2].checked==false)
+              {
+                  alert("please select any one option")
+                  return false;
+              }
+              
+      
+              //for subjects
+              if(f1.subject[0].checked==false || f1.subject[1].checked==false)
+              {
+                  alert("Please select 1st two subjects ")
+                  return false;
+              }
+      
+      
+      
+              //for  terms and codition
+              if(f1.condition.checked==false)
+              {
+                  alert("Please accept Terms and Condition ")
+                  return false;
+              }
+              
+          }
+          
+      </script>
+      
+      <script>
+          $(document).ready(function()
+          {
+              $("#formm").css({"display":"none"});
+              $("#for").click(function()
+              {
+                  
+                  $("#formm").css({"display":"block","position":"fixed","z-index":"33"});
+                  // $(".navbar").css({"opacity":"0.9"});
+                  $("section").css({"opacity":"0.5"});
+                  $("#formm").css({"opacity":"1"});
+              })
+              $("#cancel").click(function()
+              {
+                  $("#formm").css({"display":"none"});
+                  $(".navbar").css({"opacity":"1"});
+                  $("section").css({"opacity":"1"});
+              })
+      
+          })
+      </script>
+      
+      
+      <table id="formm" cellspacing="20">
+          <caption class="caption">
+              <h1>Login/Sign In</h1>
+          </caption>
+          <form name="f1" onsubmit="return fun()">
+              <tr style=" right:200px;">
+                  <td rowspan="7">
+                      <img class="img2" src="./MovieImages/LoginImg.jpg" style="height: 400px; width: 300px;">
+                  </td>
+              </tr>
+          <tr>
+              <td>
+                  <label>User Name: </label>
+              </td>
+              <td>
+                  <input type="text" name="uname" placeholder="Enter Your UserName:"/>
+              </td>
+              <td>
+                  <i class="fa fa-times-circle fa-2x" id="cancel" style="float:left; position: absolute; right:0px; top:0px; margin:3px;"></i>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <label>PassWord </label>
+              </td>
+              <td>
+                  <input type="password" name="pass" placeholder="Enter PassWord"/>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <label>Gmail </label>
+              </td>
+              <td>
+                  <input type="mail" name="gmail" placeholder="Enter Email"/>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <label>Phone No.:</label>
+              </td>
+              <td>
+                  <input type="text" name="phone" placeholder="Enter Phone No."/>
+              </td>
+          </tr>
+          <tr>
+                  <td colspan="2">
+                      <input type="checkbox" name="condition" value="Accept" style="display:inline-block;"> &nbsp;&nbsp;&nbsp;I Accept above terms & condition
+                  </td>
+          </tr>
+          <tr>
+              <td>
+                  <input type="submit" value="Login"/>
+              </td>
+          </tr>
+      </form>
+      </table>
+    </body>
+</html>

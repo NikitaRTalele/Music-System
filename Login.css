@@ -1,0 +1,17 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+article{
+    background-color: aqua;
+}
+.img2
+{
+    height:500px;
+}
+.form
+{
+    position: relative;
+    z-index: 33;
+}

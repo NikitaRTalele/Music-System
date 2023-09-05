@@ -1,0 +1,26 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+.li  li
+{
+    float: left;
+    height:300px;
+    width:400px;
+    border:1px solid red;
+    margin:10px;
+    list-style: none;
+    padding:5px;
+}
+.li img 
+{
+    height:200px;
+    width:200px;
+    margin:10px;
+    /* text-align: center; */
+}
+.li a{
+    text-decoration: none;
+ 
+}

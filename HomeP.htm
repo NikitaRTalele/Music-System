@@ -1,0 +1,491 @@
+<!-- Rough Code for Music System -->
+
+<html>
+  <head>
+    
+    <title>Music System</title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./n1.css">
+  </head>
+  <body class="bg-dark">
+    
+    <nav class="navbar h4 sticky-top navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand" href="#"><img  class="nav" src="./MovieImages/Logo.jpg"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-5 col-md-7 col-sm-7 bg-danger">
+        <div class="h3 text-center">Recently played</div>
+        <!-- 1 -->
+        <div class=" row m-1 col-md-12 bg-secondary align-items-center border border-dark ">
+          <div class="col h3 m-0  p-0 " style="width:10px;">01</div>
+          <div class="col">
+            <img  class="border rounded m-1" src="./MovieImages/The Punjaabban Song_Jug Jug Jeeyo.jpg">
+          </div>
+          <div class="col-6 text-light">The  Punjaabban Song</div>
+          <div class="col">5:00</div>
+        </div>
+        <!-- 2 -->
+        <div class=" row m-1 col-md-12 bg-secondary align-items-center border border-dark ">
+          <div class="col h3 m-0  p-0 " style="width:10px;">02</div>
+          <div class="col">
+            <img  class="border rounded m-1" src="./MovieImages/The Punjaabban Song_Jug Jug Jeeyo.jpg">
+          </div>
+          <div class="col-6 text-light">The  Punjaabban Song</div>
+          <div class="col">5:00</div>
+        </div>
+        <!-- 3 -->
+        <div class=" row m-1 col-md-12 bg-secondary align-items-center border border-dark ">
+          <div class="col h3 m-0  p-0 " style="width:10px;">03</div>
+          <div class="col">
+            <img  class="border rounded m-1" src="./MovieImages/The Punjaabban Song_Jug Jug Jeeyo.jpg">
+          </div>
+          <div class="col-6 text-light">The  Punjaabban Song</div>
+          <div class="col">5:00</div>
+        </div>
+        <!-- 4 -->
+        <div class=" row m-1 col-md-12 bg-secondary align-items-center border border-dark ">
+          <div class="col h3 m-0  p-0 " style="width:10px;">04</div>
+          <div class="col">
+            <img  class="border rounded m-1" src="./MovieImages/The Punjaabban Song_Jug Jug Jeeyo.jpg">
+          </div>
+          <div class="col-6 text-light">The  Punjaabban Song</div>
+          <div class="col">5:00</div>
+        </div>
+        <!-- 5 -->
+        <div class=" row m-1 col-md-12 bg-secondary align-items-center border border-dark ">
+          <div class="col h3 m-0  p-0 " style="width:10px;">05</div>
+          <div class="col">
+            <img  class="border rounded m-1" src="./MovieImages/The Punjaabban Song_Jug Jug Jeeyo.jpg">
+          </div>
+          <div class="col-6 text-light">The  Punjaabban Song</div>
+          <div class="col">5:00</div>
+        </div>
+        <div class="h5 float-left"></div>
+      </div>
+      <div class="col-xl-7 col-md-5 col-sm-5 bg-secondary text-center">
+        <div class="h3">Artist</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Break Start -->
+    <br>
+   
+  <!-- Break End -->
+
+
+  <!-- Artist's Start -->
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col">
+          <h2>Weekly Top 40s</h2> 
+      </div>
+        <a class=" d-block text-right mr-4"  href="#">View All</a>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="card ml-5 mt-3 mr-3 row2">
+              <img class="card-img-top " src="./MovieImages/Arijit Singh2.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Arijit Singh</h3>
+              </div>
+            </div>
+            <div class="card ml-5 mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Badshah.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Badshah</h3>
+              </div>
+            </div>
+            <div class="card ml-5  mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Badshah.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Dharshan Raval</h3>
+              </div>
+            </div>
+            <div class="card ml-5 mt-3 mr-3 row2" >
+              <img class="card-img-top" src="./MovieImages/Arijit Singh2.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Jubin Nautiyal</h3>
+              </div>
+            </div>
+            <div class="card ml-5 mt-3 mr-3 row2" >
+              <img class="card-img-top" src="./MovieImages/Arijit Singh2.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Jubin Nautiyal</h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="card ml-5 mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Badshah.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Arijit Singh</h3>
+              </div>
+            </div>
+            <div class="card ml-5 mt-3 mr-3 row2" >
+              <img class="card-img-top" src="./MovieImages/Arijit Singh2.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Arijit Singh</h3>
+              </div>
+            </div>
+            <div class="card ml-5  mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Arijit Singh2.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Arijit Singh</h3>
+              </div>
+            </div>
+            <div class="card ml-5 mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Arijit Singh2.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Arijit Singh</h3>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="card ml-5 mt-3 mr-3 row2 bg-secondary">
+              <img class="card-img-top" src="./MovieImages/Arijit Singh2.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Arijit Singh</h3>
+              </div>
+            </div>
+            <div class="card ml-5 mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Arijit Singh2.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Arijit Singh</h3>
+              </div>
+            </div>
+            <div class="card ml-5  mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Arijit Singh2.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Arijit Singh</h3>
+              </div>
+            </div>
+            <div class="card ml-5 mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Arijit Singh2.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Arijit Singh</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon  position" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon position" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!-- Artist's Starting -->
+
+
+  <!-- Break Start -->
+  <br>  
+  <br>  
+  <br>  
+  <br>  
+  
+
+  <!-- Break End -->
+
+<!-- Top Playlist's Start -->
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col text-light">
+          <h2>New Releases</h2> 
+      </div>
+        <a class=" d-block text-right mr-4"  href="#">See All</a>
+    </div>
+    <div id="TopPlaylistControl" class="carousel slide" data-ride="carousel" data-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="card ml-5 mt-3 mr-3 row2">
+              <img class="card-img-top " src="./MovieImages/Kesariya.webp" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Kesariya</h3>
+              </div>
+            </div>
+            <div class="card ml-5 mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Dhol Bajaa.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Dhol Bajaa</h3>
+              </div>
+            </div>
+            <div class="card ml-5  mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Tu You.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Tu / You</h3>
+              </div>
+            </div>
+            <div class="card ml-5 mt-3 mr-3 row2" >
+              <img class="card-img-top" src="./MovieImages/Coka 2.0.webp" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Coka 2.0</h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="card ml-5 mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Mehabooba.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Mehabooba</h3>
+              </div>
+            </div>
+            <div class="card ml-5 mt-3 mr-3 row2" >
+              <img class="card-img-top" src="./MovieImages/Barishon Mein.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Baarishon Mein</h3>
+              </div>
+            </div>
+            <div class="card ml-5  mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Akdi Pakdi.webp" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Akdi Pakdi</h3>
+              </div>
+            </div>
+            <div class="card ml-5 mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Rasiya.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Rasiya</h3>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="card ml-5 mt-3 mr-3 row2 bg-secondary">
+              <img class="card-img-top" src="./MovieImages/Raataan Lambiyan.webp" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Raataan Lambiyan</h3>
+              </div>
+            </div>
+            <div class="card ml-5 mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Deva Deva.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Deva Deva</h3>
+              </div>
+            </div>
+            <div class="card ml-5  mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Dil Bechara.webp" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Dil Bechara</h3>
+              </div>
+            </div>
+            <div class="card ml-5 mt-3 mr-3 row2">
+              <img class="card-img-top" src="./MovieImages/Arijit Singh2.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h3>Arijit Singh</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#TopPlaylistControl" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon  position" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#TopPlaylistControl" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+<!-- Top Playlist's End -->
+
+
+
+
+
+
+<!-- Top 40's Start -->
+<section class="container-fluid">
+  <div class="row">
+    <div class="col text-light">
+        <h2>Top 10's</h2> 
+    </div>
+      <a class=" d-block text-right mr-4"  href="#">See All</a>
+  </div>
+  <div id="Top10's" class="carousel slide" data-ride="carousel" data-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="card ml-5 mt-3 mr-3 row2">
+            <img class="card-img-top " src="./MovieImages/HeartBreak.webp" alt="Card image cap">
+            <div class="card-body text-center ">
+              <h5>Sad Songs</h5>
+            </div>
+          </div>
+          <div class="card ml-5 mt-3 mr-3 row2">
+            <img class="card-img-top" src="./MovieImages/Dhol Bajaa.jpg" alt="Card image cap">
+            <div class="card-body text-center ">
+              <h5>Dhol Bajaa</h5>
+            </div>
+          </div>
+          <div class="card ml-5  mt-3 mr-3 row2">
+            <img class="card-img-top" src="./MovieImages/Tu You.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5>Tu / You</h5>
+            </div>
+          </div>
+          <div class="card ml-5 mt-3 mr-3 row2" >
+            <img class="card-img-top" src="./MovieImages/Coka 2.0.webp" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5>Coka 2.0</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="card ml-5 mt-3 mr-3 row2">
+            <img class="card-img-top" src="./MovieImages/Mehabooba.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+              <h3>Mehabooba</h3>
+            </div>
+          </div>
+          <div class="card ml-5 mt-3 mr-3 row2" >
+            <img class="card-img-top" src="./MovieImages/Barishon Mein.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+              <h3>Baarishon Mein</h3>
+            </div>
+          </div>
+          <div class="card ml-5  mt-3 mr-3 row2">
+            <img class="card-img-top" src="./MovieImages/Akdi Pakdi.webp" alt="Card image cap">
+            <div class="card-body text-center">
+              <h3>Akdi Pakdi</h3>
+            </div>
+          </div>
+          <div class="card ml-5 mt-3 mr-3 row2">
+            <img class="card-img-top" src="./MovieImages/Rasiya.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+              <h3>Rasiya</h3>
+            </div>
+          </div>
+          <div class="card ml-5 mt-3 mr-3 row2">
+            <img class="card-img-top" src="./MovieImages/Rasiya.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+              <h3>Rasiya</h3>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="card ml-5 mt-3 mr-3 row2 bg-secondary">
+            <img class="card-img-top" src="./MovieImages/Raataan Lambiyan.webp" alt="Card image cap">
+            <div class="card-body text-center">
+              <h3>Raataan Lambiyan</h3>
+            </div>
+          </div>
+          <div class="card ml-5 mt-3 mr-3 row2">
+            <img class="card-img-top" src="./MovieImages/Deva Deva.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+              <h3>Deva Deva</h3>
+            </div>
+          </div>
+          <div class="card ml-5  mt-3 mr-3 row2">
+            <img class="card-img-top" src="./MovieImages/Dil Bechara.webp" alt="Card image cap">
+            <div class="card-body text-center">
+              <h3>Dil Bechara</h3>
+            </div>
+          </div>
+          <div class="card ml-5 mt-3 mr-3 row2">
+            <img class="card-img-top" src="./MovieImages/Arijit Singh2.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+              <h3>Arijit Singh</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#Top10's" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon  position" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#Top10's" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<!-- Top 40's End -->
+
+
+ 
+
+
+
+
+
+
+  </body>
+</html>
